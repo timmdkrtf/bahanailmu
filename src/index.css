@@ -1,0 +1,501 @@
+:root {
+  --warna-orange: #E06F1F;
+  --warna-yellow: #E0A21F;
+  --warna-brown: #9D5716;
+}
+
+.navbar{
+  padding: 20px 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+  font-size: 16px;
+  padding: 10px 15px;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.navbar .d-flex.gap-2{
+  padding: 10px;
+  margin: -5px 0 0 0;
+}
+
+.navbar .d-flex.gap-2 a{
+  color: rgb(51, 51, 51);
+}
+
+.about{
+  padding: 90px 0 120px 0;
+  position: relative;
+}
+
+.about::before{
+  content: "";
+  position: absolute;
+  background-image: url("../src/assets/elemen/elemen4.png");
+  width: 160px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  right: 0;
+}
+
+.about::after{
+  content: "";
+  position: absolute;
+  background-image: url('../src/assets/image/bg/2.png');
+  width: 800px;
+  height: 450px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.about .row{
+  gap: 150px;
+  position: relative;
+}
+
+.about .row::before{
+  content: "";
+  position: absolute;
+  background-image: url('../src/assets/image/bg-texture-fiber3.png');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.25;
+  right: 0;
+  bottom: -140px;
+  z-index: -1;
+}
+
+.about .row .halakah-about .btn{
+  color: var(--warna-brown);
+  font-weight: 600;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.about .row .halakah-about .btn:hover{
+  margin-left: 10px;
+}
+
+.nonhovered-icon{
+  transform: translateX(5px);
+}
+
+.hovered-icon {
+  animation: slide-infinite 1.5s infinite;
+}
+
+@keyframes slide-infinite {
+  0% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}
+
+.btn:hover .hovered-text {
+  position: relative;
+  text-decoration: none;
+}
+
+.btn span {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about .row .halakah-about{
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.about .row .halakah-about .text{
+  width: calc(50% - 35px);
+}
+
+.about .row .halakah-about .text h1{
+  font-family: "Oswald", sans-serif;
+  position: relative;
+}
+
+.about .row .halakah-about .text h1::before{
+  content: "";
+  position: absolute;
+  background-image: url('../src/assets/elemen/elemen3.png');
+  width: 25px;
+  height: 34px;
+  background-size: contain;
+  left: -5px;
+  top: -33px;
+}
+
+.about .row .halakah-about .text p{
+  font-family: "Source Sans 3", sans-serif;
+  opacity: 0.85;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+
+.about .row .halakah-about .text h1 span{
+  position: relative;
+  color: var(--warna-orange);
+}
+
+.about .row .halakah-about .image{
+  width: calc(50% - 35px);
+  position: relative;
+}
+
+.about .row .halakah-about .image img{
+  width: 70%;
+}
+
+.about .row .publisher-about .btn{
+  font-weight: 600;
+  transition: 0.3s;
+  position: relative;
+  padding: 0;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  color: var(--warna-brown);
+}
+
+.about .row .publisher-about .btn:hover{
+  margin-left: 10px;
+}
+
+.about .row .publisher-about{
+  gap: 70px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.about .row .publisher-about .text{
+  width: calc(50% - 35px);
+}
+
+.about .row .publisher-about .text h2{
+  font-family: "Oswald", sans-serif;
+  position: relative;
+}
+
+.about .row .publisher-about .text h2::after{
+  content: "";
+  position: absolute;
+  background-image: url('../src/assets/elemen/elemen3.png');
+  width: 25px;
+  height: 34px;
+  background-size: contain;
+  left: -5px;
+  top: -33px;
+}
+
+.about .row .publisher-about .text h2 span{
+  color: var(--warna-orange);
+}
+
+.about .row .publisher-about .text p{
+  font-family: "Source Sans 3", sans-serif;
+  opacity: 0.9;
+  font-size: 15px;
+}
+
+.about .row .publisher-about .image{
+  width: calc(50% - 35px);
+}
+
+.about .row .publisher-about .image img{
+  width: 100%;
+}
+
+.service {
+  padding: 50px 0;
+  margin: 0 0 40px 0;
+  position: relative;
+}
+
+.service::after{
+  content: "";
+  position: absolute;
+  background-image: url('/src/assets/image/bg/1.png');
+  width: 100%;
+  height: 350px;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  filter: brightness(50%);
+}
+
+.service::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-image: linear-gradient(rgba(224, 111, 31, 1) 0%, rgba(224, 111, 31, 0.1) 100%);
+}
+
+.service h2{
+  font-size: 38px;
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  color: #ffffff;
+  z-index: 1;
+  font-family: "Oswald", sans-serif;
+}
+
+.service .row{
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+  padding: 0 0 70px 0;
+}
+
+.service .row::after{
+  content: "";
+  position: absolute;
+  background-image: url('../src/assets/image/morse-halakah-horizontal.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 25px;
+  bottom: -30px;
+}
+
+.service .row .service-card{
+  width: calc(33% - 20px);
+  padding: 35px 25px 15px 25px;
+  box-shadow: 0 0 3px 0 var(--warna-orange);
+  transition: 0.3s;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.service .row .service-card::after{
+  content: "";
+  position: absolute;
+  background-image: url('../src/assets/elemen/elemen2.png');
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 10px;
+  bottom: -25px;
+  transform: scale(-1);
+}
+
+.service .row .service-card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 0 3px 0 var(--warna-yellow);
+}
+
+.service .row .service-card svg{
+  font-size: 45px;
+  color: var(--warna-yellow);
+}
+
+.service .row .service-card h4{
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+}
+
+.service .row .service-card p{
+  font-size: 13px;
+  opacity: 0.8;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.book {
+  padding: 20px 0 120px 0;
+}
+
+.book .title h3{
+  font-family: "Oswald", sans-serif;
+  color: var(--warna-orange);
+}
+
+.book .content p{
+  font-family: "Source Sans 3", sans-serif;
+  font-style: italic;
+  margin: 20px 0 0 0;
+}
+
+footer{
+  height: auto;
+  width: 100%;
+  background-color: var(--warna-brown);
+  padding: 50px 0 0 0;
+  color: white;
+}
+
+footer .mb-2 a{
+  font-size: 16px;
+}
+
+footer img{
+  width: 235px;
+  height: 100%;
+  object-fit: contain;
+}
+
+footer small{
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+footer .text-center .fs-3{
+ padding: 0; 
+}
+
+footer .row .pt-4 .mt-3{
+  font-family: "Open Sans", sans-serif;
+}
+
+footer .text-end p{
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 -4px 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 991px) {
+  .navbar .line-horizontal{
+    width: 100px;
+    height: 2px;
+  }
+
+  .service .row .service-card{
+    width: calc(50% - 20px);
+  }
+
+  .service .row::after{
+    content: "";
+    position: absolute;
+    background-image: url('../src/assets/image/morse-halakah-horizontal.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 35px;
+    bottom: -30px;
+  }
+
+  .book .row .content-book{
+    width: 47.5%;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .about .row .halakah-about{
+    flex-direction: column;
+  }
+
+  .about .row .halakah-about .text{
+    width: 100%;
+  }
+  
+  .about .row .halakah-about .image{
+    width: 100%;
+    text-align: center;
+  }
+
+  .about .row .halakah-about .image img{
+    width: 80%;
+  }
+
+  .about .row .publisher-about{
+    flex-direction: column-reverse;
+    gap: 50px !important;
+  }
+
+  .about .row .publisher-about .text{
+    width: 100%;
+  }
+  
+  .about .row .publisher-about .image{
+    width: 100%;
+    text-align: center;
+  }
+  .about .row .publisher-about .image img{
+    width: 80%;
+  }
+
+  .service .row .service-card{
+    width: 75%;
+  }
+
+  .book .row .content-book{
+    width: 75%;
+  }
+
+}
+@media screen and (max-width: 576px) {
+  .about::before{
+    width: 110px;
+    height: 130px;
+  }
+
+  .service .row .service-card{
+    width: 90%;
+  }
+
+  .service .row::after{
+    content: "";
+    position: absolute;
+    background-image: url('../src/assets/image/morse-halakah-horizontal.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 25px;
+    bottom: -30px;
+  }
+
+  .book .row{
+    justify-content: center;
+  }
+
+  .book .row .content-book{
+    width: 85%;
+  }
+
+}
+@media screen and (max-width: 380px) {
+  .about::before{
+    width: 90px;
+    height: 110px;
+  }
+
+  .about{
+    padding: 120px 0;
+  }
+
+
+  .service .row .service-card{
+    width: 95%;
+  }
+
+  .book .row .content-book{
+    width: 95%;
+  }
+}
