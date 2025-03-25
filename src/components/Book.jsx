@@ -2,7 +2,7 @@
 
 export default function Book(){
     return(
-        <div className="book">
+        <div className="book" id="book">
             <div className="container">
                 <div className="title">
                     <h3>Buku</h3>
