@@ -34,7 +34,7 @@ export default function About(){
                                 <p>Bagi Abdi Bangun Aksara, menerbitkan buku bukan hanya tentang mencetak dan mendistribusikan materi ajar. Kami melihat diri kami sebagai mitra terpercaya bagi tenaga pendidik dan siswa dalam meningkatkan kualitas pembelajaran. Kami menyediakan sumber belajar yang relevan, mudah dipahami, dan mendukung proses belajar mengajar secara optimal.</p>
                                 <p>Lebih dari itu, Abdi Bangun Aksara juga berkomitmen untuk meningkatkan literasi di Indonesia. Kami percaya bahwa akses terhadap bahan ajar berkualitas adalah kunci utama dalam menciptakan generasi yang cerdas dan berdaya saing tinggi.</p>
                             </p>
-                            <a className="btn mt-3" onMouseEnter={() => setHovered(true)}  onMouseLeave={() => setHovered(false)} href="#publisher-about"><span className={hovered ? "hovered-text" : ""}>Telusuri Penerbit ABA</span><span className={hovered ? "hovered-icon" : "nonhovered-icon"}>{hovered ? <BsChevronDoubleRight style={{marginTop: "-2px"}} /> : <BsChevronRight style={{marginTop: "-2px"}} />}</span></a>
+                            <a className="btn mt-3" onMouseEnter={() => setHovered(true)}  onMouseLeave={() => setHovered(false)} href="https://www.abaksara.co.id/#penerbit-aba"><span className={hovered ? "hovered-text" : ""}>Telusuri Penerbit ABA</span><span className={hovered ? "hovered-icon" : "nonhovered-icon"}>{hovered ? <BsChevronDoubleRight style={{marginTop: "-2px"}} /> : <BsChevronRight style={{marginTop: "-2px"}} />}</span></a>
                         </div>
                     </div>
                 </div>
