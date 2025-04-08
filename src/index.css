@@ -492,7 +492,7 @@ footer .text-end p{
     width: 95%;
   }
 
-  footer .text-end{
+  footer .text-end p{
     font-size: 11px;
   }
 }
