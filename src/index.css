@@ -491,4 +491,8 @@ footer .text-end p{
   .book .row .content-book{
     width: 95%;
   }
+
+  footer .text-end{
+    font-size: 11px;
+  }
 }
