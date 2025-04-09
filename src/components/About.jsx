@@ -2,6 +2,8 @@ import PenerbitLogo from "../assets/image/logo/Logo Utama Penerbit ABA (P).png"
 import Logo from "../assets/image/logo/Group 24.png"
 import { useState } from "react";
 
+import Bg from "../assets/image/bg/3.png"
+
 import { BsChevronRight } from "react-icons/bs";
 import { BsChevronDoubleRight } from "react-icons/bs";
 
@@ -11,12 +13,15 @@ export default function About(){
 
     return(
         <div className="about" id="about">
+            <div className="img-bg">
+                <img src={Bg} alt="" />
+            </div>
             <div className="container">
                 <div className="row">
                     <div className="halakah-about d-flex align-items-center justify-content-between">
                         <div className="text">
                             <h1 className="">Tentang <span>Bahana Ilmu</span></h1>
-                            <p className="mt-3">Bahana Ilmu adalah merek dari Penerbit Abdi Bangun Aksara yang berfokus pada penerbitan buku pelajaran untuk berbagai jenjang pendidikan, mulai dari SD, SMP, hingga SMA. Buku-buku kami dirancang untuk membantu siswa memahami materi pelajaran dengan lebih mudah, interaktif, dan aplikatif.</p>
+                            <p className="">Bahana Ilmu adalah merek dari Penerbit Abdi Bangun Aksara yang berfokus pada penerbitan buku pelajaran untuk berbagai jenjang pendidikan, mulai dari SD, SMP, hingga SMA. Buku-buku kami dirancang untuk membantu siswa memahami materi pelajaran dengan lebih mudah, interaktif, dan aplikatif.</p>
                             <a className="btn mt-5" onMouseEnter={() => setHovered(true)}  onMouseLeave={() => setHovered(false)} href="#publisher-about"><span className={hovered ? "hovered-text" : ""}>Baca Selengkapnya</span><span className={hovered ? "hovered-icon" : "nonhovered-icon"}>{hovered ? <BsChevronDoubleRight style={{marginTop: "-2px"}} /> : <BsChevronRight style={{marginTop: "-2px"}} />}</span></a>
                         </div>
                         <div className="image text-center">
