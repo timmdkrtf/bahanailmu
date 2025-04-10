@@ -179,6 +179,7 @@
   gap: 70px;
   flex-wrap: wrap;
   position: relative;
+  align-items: center;
 }
 
 .about .row .publisher-about .text{
@@ -445,6 +446,10 @@ footer .text-end p{
     
   .about .img-bg img{
     height: 530px;
+  }
+
+  .about .row .halakah-about .image img{
+    width: 80%;
   }
 
   .service .row .service-card{
