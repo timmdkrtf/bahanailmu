@@ -22,7 +22,7 @@ export default function About(){
                         <div className="text">
                             <h1 className="">Tentang <span>Bahana Ilmu</span></h1>
                             <p className="">Bahana Ilmu adalah merek dari Penerbit Abdi Bangun Aksara yang berfokus pada penerbitan buku pelajaran untuk berbagai jenjang pendidikan, mulai dari SD, SMP, hingga SMA. Buku-buku kami dirancang untuk membantu siswa memahami materi pelajaran dengan lebih mudah, interaktif, dan aplikatif.</p>
-                            <a className="btn mt-5" onMouseEnter={() => setHovered(true)}  onMouseLeave={() => setHovered(false)} href="#publisher-about"><span className={hovered ? "hovered-text" : ""}>Baca Selengkapnya</span><span className={hovered ? "hovered-icon" : "nonhovered-icon"}>{hovered ? <BsChevronDoubleRight style={{marginTop: "-2px"}} /> : <BsChevronRight style={{marginTop: "-2px"}} />}</span></a>
+                            <a className="btn mt-3" onMouseEnter={() => setHovered(true)}  onMouseLeave={() => setHovered(false)} href="#publisher-about"><span className={hovered ? "hovered-text" : ""}>Baca Selengkapnya</span><span className={hovered ? "hovered-icon" : "nonhovered-icon"}>{hovered ? <BsChevronDoubleRight style={{marginTop: "-2px"}} /> : <BsChevronRight style={{marginTop: "-2px"}} />}</span></a>
                         </div>
                         <div className="image text-center">
                             <img src={Logo} alt="" />

@@ -430,10 +430,22 @@ footer .text-end p{
   margin: 0 0 -4px 0;
 }
 
+@media screen and (max-width: 1200px){
+  
+.about .img-bg img{
+  height: 550px;
+}
+
+}
+
 @media screen and (max-width: 991px) {
   .navbar .line-horizontal{
     width: 100px;
     height: 2px;
+  }
+    
+  .about .img-bg img{
+    height: 530px;
   }
 
   .service .row .service-card{
@@ -469,7 +481,8 @@ footer .text-end p{
 
   .about .img-bg img{
     object-position: 100% 100%;
-    top: 380px;
+    top: 360px;
+    height: 600px;
   }
 
   .about .row .halakah-about{
@@ -527,9 +540,9 @@ footer .text-end p{
 @media screen and (max-width: 576px) {
 
   .about .img-bg img{
-    object-position: 90% 90%;
-    top: 380px;
-    height: 550px;
+    object-position: 100% 100%;
+    top: 400px;
+    height: 520px;
   }
 
   .about::before{
