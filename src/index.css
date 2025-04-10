@@ -540,7 +540,7 @@ footer .text-end p{
 @media screen and (max-width: 576px) {
 
   .about .img-bg img{
-    object-position: 100% 100%;
+    object-position: 90% 90%;
     top: 400px;
     height: 520px;
   }
@@ -595,7 +595,7 @@ footer .text-end p{
 
   .about .img-bg img{
     object-position: 90% 90%;
-    top: 500px;
+    top: 480px;
     height: 400px;
   }
 
