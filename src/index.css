@@ -466,6 +466,12 @@ footer .text-end p{
   }
 }
 @media screen and (max-width: 768px) {
+
+  .about .img-bg img{
+    object-position: 100% 100%;
+    top: 380px;
+  }
+
   .about .row .halakah-about{
     flex-direction: column;
   }
@@ -519,6 +525,13 @@ footer .text-end p{
   }
 }
 @media screen and (max-width: 576px) {
+
+  .about .img-bg img{
+    object-position: 90% 90%;
+    top: 380px;
+    height: 550px;
+  }
+
   .about::before{
     width: 110px;
     height: 130px;
@@ -565,6 +578,12 @@ footer .text-end p{
 
   .about{
     padding: 120px 0;
+  }
+
+  .about .img-bg img{
+    object-position: 90% 90%;
+    top: 500px;
+    height: 400px;
   }
 
   .service .row .service-card{

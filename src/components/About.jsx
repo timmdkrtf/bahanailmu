@@ -2,7 +2,7 @@ import PenerbitLogo from "../assets/image/logo/Logo Utama Penerbit ABA (P).png"
 import Logo from "../assets/image/logo/Group 24.png"
 import { useState } from "react";
 
-import Bg from "../assets/image/bg/3.png"
+import Bg from "../assets/image/bg/32.png"
 
 import { BsChevronRight } from "react-icons/bs";
 import { BsChevronDoubleRight } from "react-icons/bs";
