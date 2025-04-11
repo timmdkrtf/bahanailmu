@@ -87,7 +87,7 @@
   color: var(--warna-brown);
   font-weight: 600;
   font-family: "Source Sans 3", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   padding: 0;
   transition: 0.3s;
 }
@@ -138,12 +138,13 @@
 .about .row .halakah-about .text h1{
   font-family: "Oswald", sans-serif;
   position: relative;
+  font-size: 42px;
 }
 
 .about .row .halakah-about .text p{
   font-family: "Source Sans 3", sans-serif;
   opacity: 0.85;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 24px;
 }
 
@@ -220,7 +221,7 @@
   position: absolute;
   background-image: url('/src/assets/image/bg/1.png');
   width: 100%;
-  height: 350px;
+  height: 400px;
   top: 0;
   background-size: cover;
   background-position: center;
@@ -232,7 +233,7 @@
   content: "";
   position: absolute;
   width: 100%;
-  height: 350px;
+  height: 400px;
   top: 0;
   left: 0;
   z-index: 0;
@@ -303,12 +304,12 @@
 }
 
 .service .row .service-card h4{
-  font-size: 24px;
+  font-size: 28px;
   font-family: "Oswald", sans-serif;
 }
 
 .service .row .service-card p{
-  font-size: 13px;
+  font-size: 15px;
   opacity: 0.8;
   font-family: "Source Sans 3", sans-serif;
 }
@@ -452,6 +453,14 @@ footer .text-end p{
     width: 80%;
   }
 
+  .about .row .halakah-about .text h1{
+    font-size: 38px;
+  }
+  
+  .about .row .halakah-about .text p{
+    font-size: 18px;
+  }
+
   .service .row .service-card{
     width: calc(50% - 20px);
   }
@@ -551,6 +560,10 @@ footer .text-end p{
     object-position: 90% 90%;
     top: 380px;
     height: 520px;
+  }
+
+  .about .row .halakah-about .text h1{
+    font-size: 36px;
   }
 
   .about::before{
